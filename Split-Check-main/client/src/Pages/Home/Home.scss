@@ -1,0 +1,28 @@
+
+.Home{
+    margin: auto;
+    justify-content:center;
+    text-align: center;
+
+    .welcome{
+        margin-top:8rem;
+        color: #394867;
+    }
+    .yourGroups{    
+        margin: auto;
+        margin-top:3rem ;
+        padding: 1rem 0;
+        h1{
+            color: #394867;
+        }
+        background-color: #f0f0f0;
+        border-radius: 2%;
+        width: 30%;
+        .groupList{
+            min-height: 30vh;
+            max-height: 60vh;
+            overflow: auto;
+            margin: auto;
+        }
+    }
+}

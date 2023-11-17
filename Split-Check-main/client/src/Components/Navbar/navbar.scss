@@ -1,0 +1,61 @@
+.navbar{
+    
+    .appbar{
+        background-color: #3C486B;//rgba(17, 9, 85, 0.945);
+    }
+    .logoName{
+            margin-right: 2;
+            display: flex;
+            font-family:monospace;
+            font-weight: 700;
+            letter-spacing: .3rem;
+            color:white;
+            text-decoration: none;
+    }
+
+    .logojpg{
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .userName{
+            margin-left:  12px;
+            display: flex;
+            font-family:monospace;
+            font-weight: 700;
+            letter-spacing: .1rem;
+            color:white;
+            text-decoration: none;
+    }
+
+   
+}
+@media only screen and (max-device-width:500px) {
+        
+    .navbar{
+       .appbar{
+         min-height: 6rem;
+         margin: auto;
+       }
+       .logoName{
+          font-size: 2.5rem;
+       }
+       .logojpg{
+           width: 4rem;
+           height: 4rem;
+       }
+       button{
+           font-size: 1.4rem;
+       }
+       .MuiAvatar-root{
+           width: 4rem;
+           height:4rem;
+       }
+       .MuiTypography-body1{
+           display: none;
+       }
+       
+    }
+}

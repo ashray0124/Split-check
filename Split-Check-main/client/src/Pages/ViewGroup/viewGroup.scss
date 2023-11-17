@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+::-webkit-scrollbar {
+    width: 0px;
+}
+.ViewGroup {
+    font-family: monospace;
+    margin-top: 68.5px;
+    
+
+    .detailsSection {
+        height: auto;
+        width: 100%;
+        padding-top: 2rem;
+        background-color: #F0F0F0;
+
+        .infoContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .groupInfo {
+                text-align: center;
+
+                .groupImg {
+                    width: 8rem;
+                    height: 8rem;
+                    border-radius: 10%;
+                }
+
+                .groupName {
+                    font-size: 2.4rem;
+                    margin: auto;
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .buttons Button {
+            margin: 1rem;
+            width: 200px;
+            background-color: #3C486B;
+
+        }
+
+        .ourDetails {
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 1rem;
+            color: #780fda;
+        }
+    }
+    .separator{
+        height: 2px;
+        background-color: hsl(217, 25%, 65%);
+        border-radius: 50%
+    }
+
+    .ListofLinks {
+        position: sticky;
+        z-index: 1;
+        top: 4.4rem;
+        background-color: #F0EEED;
+        margin: auto;
+
+        .Tab {
+            font-size: 1rem;
+            font-weight: 540;
+            font-family: monospace;
+            color: #3c0272;
+            width: 13%;
+            display: inline;
+        }
+    }
+
+    .RequiredList {
+        
+        width: 100%;
+        margin: 1.5rem 0 10rem 0;
+
+        .paper {
+            width: 40%;
+            margin: auto;
+            background-color: white // #e9f4fb;
+        }
+
+        .heading {
+            color: gray;
+            font-weight: 100;
+            font-size: 1rem;
+            padding: 20px;
+        }
+
+        .transaction {
+            cursor: pointer;
+
+            .transactionDate {
+                margin: 10px 10px 5px 0;
+            }
+
+            .transDetail {
+                .name {
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    max-width: 20rem;
+                    font-weight: 900;
+                }
+            }
+
+            .OurPart {
+                text-align: right;
+                // color: rgb(189, 77, 37);
+                font-weight: bolder;
+            }
+        }
+
+
+        .AllPayments {
+            cursor: default;
+
+            .statement {
+                color: #03042c;
+                font-weight: 400;
+
+                .amount {
+                    color: rgb(185, 90, 46);
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .SettledUp {
+            font-size: 1rem;
+            color: rgb(8, 26, 87);
+            margin: 20px;
+        }
+
+
+        .AllBalances {
+
+            .accordion {
+                background: none;
+                width: 100%;
+
+                .AccordionDetails {
+                    background-color: #F0F0F0;
+                    max-height: 30rem;
+                    overflow: auto;
+
+                    .SettleUpBtn {
+                        background: none;
+                        float: right;
+                        margin: 0 0 10px 15 px;
+                        font-weight: 200;
+                    }
+
+                    .typography {
+                        min-height: 2rem;
+                        margin: 20px 0px;
+                    }
+                }
+
+
+                .priceg0 {
+                    color: rgb(23, 185, 9);
+                }
+
+                .pricel0 {
+                    color: orange;
+                }
+            }
+
+        }
+
+        .Recents {
+            .payDate {
+                margin: 10px 10px 5px 0;
+            }
+
+            .statement {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                max-width: 30rem;
+            }
+        }
+    }
+
+    .LastButton {
+        position: fixed;
+        z-index: 2;
+        margin: auto;
+        bottom: 3rem;
+        left: 45%;
+    }
+
+}
